@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		752231A426AB6D09002AF587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7557719026AB4E7300693D6C /* Assets.xcassets */; };
+		752231A726AB7C0A002AF587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752231A626AB7C0A002AF587 /* LaunchScreen.storyboard */; };
+		7557718D26AB4E6F00693D6C /* HoneyloveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557718C26AB4E6F00693D6C /* HoneyloveApp.swift */; };
+		7557718F26AB4E6F00693D6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557718E26AB4E6F00693D6C /* ContentView.swift */; };
+		7557719426AB4E7300693D6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7557719326AB4E7300693D6C /* Preview Assets.xcassets */; };
+		7557719E26AB4E7400693D6C /* HoneyloveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557719D26AB4E7400693D6C /* HoneyloveTests.swift */; };
+		755771A826AB4E7400693D6C /* HoneyloveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755771A726AB4E7400693D6C /* HoneyloveUITests.swift */; };
+		755771B726AB659D00693D6C /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 755771B626AB659400693D6C /* Click.wav */; };
+		755771B926AB65B000693D6C /* Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 755771B826AB65B000693D6C /* Sound.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7557719A26AB4E7400693D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7557718126AB4E6E00693D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7557718826AB4E6F00693D6C;
+			remoteInfo = Honeylove;
+		};
+		755771A426AB4E7400693D6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7557718126AB4E6E00693D6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7557718826AB4E6F00693D6C;
+			remoteInfo = Honeylove;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		752231A626AB7C0A002AF587 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7557718926AB4E6F00693D6C /* Honeylove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeylove.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7557718C26AB4E6F00693D6C /* HoneyloveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveApp.swift; sourceTree = "<group>"; };
+		7557718E26AB4E6F00693D6C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7557719026AB4E7300693D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7557719326AB4E7300693D6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7557719926AB4E7400693D6C /* HoneyloveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyloveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7557719D26AB4E7400693D6C /* HoneyloveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveTests.swift; sourceTree = "<group>"; };
+		755771A326AB4E7400693D6C /* HoneyloveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoneyloveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		755771A726AB4E7400693D6C /* HoneyloveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveUITests.swift; sourceTree = "<group>"; };
+		755771B426AB4E9E00693D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		755771B626AB659400693D6C /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
+		755771B826AB65B000693D6C /* Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7557718626AB4E6F00693D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557719626AB4E7300693D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755771A026AB4E7400693D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		752231A526AB7BDF002AF587 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				752231A626AB7C0A002AF587 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7557718026AB4E6E00693D6C = {
+			isa = PBXGroup;
+			children = (
+				7557718B26AB4E6F00693D6C /* Honeylove */,
+				752231A526AB7BDF002AF587 /* Views */,
+				755771B526AB657200693D6C /* Sounds */,
+				7557719C26AB4E7400693D6C /* HoneyloveTests */,
+				755771A626AB4E7400693D6C /* HoneyloveUITests */,
+				7557718A26AB4E6F00693D6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7557718A26AB4E6F00693D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7557718926AB4E6F00693D6C /* Honeylove.app */,
+				7557719926AB4E7400693D6C /* HoneyloveTests.xctest */,
+				755771A326AB4E7400693D6C /* HoneyloveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7557718B26AB4E6F00693D6C /* Honeylove */ = {
+			isa = PBXGroup;
+			children = (
+				755771B426AB4E9E00693D6C /* Info.plist */,
+				7557718C26AB4E6F00693D6C /* HoneyloveApp.swift */,
+				7557718E26AB4E6F00693D6C /* ContentView.swift */,
+				7557719026AB4E7300693D6C /* Assets.xcassets */,
+				7557719226AB4E7300693D6C /* Preview Content */,
+			);
+			path = Honeylove;
+			sourceTree = "<group>";
+		};
+		7557719226AB4E7300693D6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7557719326AB4E7300693D6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7557719C26AB4E7400693D6C /* HoneyloveTests */ = {
+			isa = PBXGroup;
+			children = (
+				7557719D26AB4E7400693D6C /* HoneyloveTests.swift */,
+			);
+			path = HoneyloveTests;
+			sourceTree = "<group>";
+		};
+		755771A626AB4E7400693D6C /* HoneyloveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				755771A726AB4E7400693D6C /* HoneyloveUITests.swift */,
+			);
+			path = HoneyloveUITests;
+			sourceTree = "<group>";
+		};
+		755771B526AB657200693D6C /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				755771B626AB659400693D6C /* Click.wav */,
+				755771B826AB65B000693D6C /* Sound.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7557718826AB4E6F00693D6C /* Honeylove */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755771AB26AB4E7400693D6C /* Build configuration list for PBXNativeTarget "Honeylove" */;
+			buildPhases = (
+				7557718526AB4E6F00693D6C /* Sources */,
+				7557718626AB4E6F00693D6C /* Frameworks */,
+				7557718726AB4E6F00693D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Honeylove;
+			productName = Honeylove;
+			productReference = 7557718926AB4E6F00693D6C /* Honeylove.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7557719826AB4E7300693D6C /* HoneyloveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755771AE26AB4E7400693D6C /* Build configuration list for PBXNativeTarget "HoneyloveTests" */;
+			buildPhases = (
+				7557719526AB4E7300693D6C /* Sources */,
+				7557719626AB4E7300693D6C /* Frameworks */,
+				7557719726AB4E7300693D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7557719B26AB4E7400693D6C /* PBXTargetDependency */,
+			);
+			name = HoneyloveTests;
+			productName = HoneyloveTests;
+			productReference = 7557719926AB4E7400693D6C /* HoneyloveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		755771A226AB4E7400693D6C /* HoneyloveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 755771B126AB4E7400693D6C /* Build configuration list for PBXNativeTarget "HoneyloveUITests" */;
+			buildPhases = (
+				7557719F26AB4E7400693D6C /* Sources */,
+				755771A026AB4E7400693D6C /* Frameworks */,
+				755771A126AB4E7400693D6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				755771A526AB4E7400693D6C /* PBXTargetDependency */,
+			);
+			name = HoneyloveUITests;
+			productName = HoneyloveUITests;
+			productReference = 755771A326AB4E7400693D6C /* HoneyloveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7557718126AB4E6E00693D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7557718826AB4E6F00693D6C = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7557719826AB4E7300693D6C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7557718826AB4E6F00693D6C;
+					};
+					755771A226AB4E7400693D6C = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7557718826AB4E6F00693D6C;
+					};
+				};
+			};
+			buildConfigurationList = 7557718426AB4E6E00693D6C /* Build configuration list for PBXProject "Honeylove" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7557718026AB4E6E00693D6C;
+			productRefGroup = 7557718A26AB4E6F00693D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7557718826AB4E6F00693D6C /* Honeylove */,
+				7557719826AB4E7300693D6C /* HoneyloveTests */,
+				755771A226AB4E7400693D6C /* HoneyloveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7557718726AB4E6F00693D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755771B926AB65B000693D6C /* Sound.mp3 in Resources */,
+				7557719426AB4E7300693D6C /* Preview Assets.xcassets in Resources */,
+				752231A426AB6D09002AF587 /* Assets.xcassets in Resources */,
+				752231A726AB7C0A002AF587 /* LaunchScreen.storyboard in Resources */,
+				755771B726AB659D00693D6C /* Click.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557719726AB4E7300693D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		755771A126AB4E7400693D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7557718526AB4E6F00693D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557718F26AB4E6F00693D6C /* ContentView.swift in Sources */,
+				7557718D26AB4E6F00693D6C /* HoneyloveApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557719526AB4E7300693D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7557719E26AB4E7400693D6C /* HoneyloveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7557719F26AB4E7400693D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				755771A826AB4E7400693D6C /* HoneyloveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7557719B26AB4E7400693D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7557718826AB4E6F00693D6C /* Honeylove */;
+			targetProxy = 7557719A26AB4E7400693D6C /* PBXContainerItemProxy */;
+		};
+		755771A526AB4E7400693D6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7557718826AB4E6F00693D6C /* Honeylove */;
+			targetProxy = 755771A426AB4E7400693D6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		755771A926AB4E7400693D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		755771AA26AB4E7400693D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		755771AC26AB4E7400693D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Honeylove/Preview Content\"";
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Honeylove/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Honeylove;
+				INFOPLIST_KEY_CFBundleName = Honeylove;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatterBox.Honeylove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		755771AD26AB4E7400693D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Honeylove/Preview Content\"";
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Honeylove/Info.plist;
+				INFOPLIST_KEY_CFBundleExecutable = Honeylove;
+				INFOPLIST_KEY_CFBundleName = Honeylove;
+				INFOPLIST_KEY_CFBundleVersion = 1;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatterBox.Honeylove;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		755771AF26AB4E7400693D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatterBox.HoneyloveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeylove.app/Honeylove";
+			};
+			name = Debug;
+		};
+		755771B026AB4E7400693D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatterBox.HoneyloveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Honeylove.app/Honeylove";
+			};
+			name = Release;
+		};
+		755771B226AB4E7400693D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatterBox.HoneyloveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Honeylove;
+			};
+			name = Debug;
+		};
+		755771B326AB4E7400693D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QFQW29JWKY;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ChatterBox.HoneyloveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Honeylove;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7557718426AB4E6E00693D6C /* Build configuration list for PBXProject "Honeylove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755771A926AB4E7400693D6C /* Debug */,
+				755771AA26AB4E7400693D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755771AB26AB4E7400693D6C /* Build configuration list for PBXNativeTarget "Honeylove" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755771AC26AB4E7400693D6C /* Debug */,
+				755771AD26AB4E7400693D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755771AE26AB4E7400693D6C /* Build configuration list for PBXNativeTarget "HoneyloveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755771AF26AB4E7400693D6C /* Debug */,
+				755771B026AB4E7400693D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		755771B126AB4E7400693D6C /* Build configuration list for PBXNativeTarget "HoneyloveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				755771B226AB4E7400693D6C /* Debug */,
+				755771B326AB4E7400693D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7557718126AB4E6E00693D6C /* Project object */;
+}
