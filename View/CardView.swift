@@ -16,6 +16,8 @@ struct CardView: View {
             .resizable()
             .cornerRadius(24)
             .scaledToFit()
+        //Declare the frame for your image
+//            .frame(width: 380, height: 280)
             .frame(minWidth: 0, maxWidth: .infinity)
         // Honeylove place destination
             .overlay(
@@ -62,7 +64,7 @@ struct CardView: View {
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
         CardView(honeylove: honeyloveData[1])
-            .previewLayout(.fixed(width: 375,
+            .previewLayout(.fixed(width: 275,
                                   height: 600))
         
     }

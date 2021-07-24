@@ -10,8 +10,21 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
     // Card view text
-        CardView(honeylove: honeyloveData[1])
-            .padding()
+        VStack {
+            HeaderView()
+            
+            Spacer()
+            
+            CardView(honeylove: honeyloveData[2])
+            // FIXME: Add temporary padding to cardview
+                .padding()
+            
+            Spacer()
+            
+            FooterView()
+            
+            // Spacer between card 
+        }
     }
 }
 
