@@ -8,6 +8,10 @@
 import SwiftUI
 
 struct FooterView: View {
+    // MARK: Create new binder
+    @Binding var showBookingAlert: Bool
+    
+    
     var body: some View {
         HStack {
             // Left image for the folder
@@ -19,7 +23,13 @@ struct FooterView: View {
             // Button
             Button(action: {
                 // ACTION
-                print("Success!")
+//                print("Success!")
+                self.showBookingAlert.toggle()
+                
+                
+        // Change property when button is tapped
+                
+                
             }) {
                 Text("Book Appointment".uppercased())
                 // Modifiers to text view
@@ -46,8 +56,10 @@ struct FooterView: View {
 }
 
 struct FooterView_Previews: PreviewProvider {
+    @State static var showAlert: Bool = false
+    
     static var previews: some View {
-        FooterView()
+        FooterView(showBookingAlert: $showAlert)
             .previewLayout(.fixed(
                 width: 375,
                 height: 80))
