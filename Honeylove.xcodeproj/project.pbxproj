@@ -16,6 +16,9 @@
 		755771A826AB4E7400693D6C /* HoneyloveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755771A726AB4E7400693D6C /* HoneyloveUITests.swift */; };
 		755771B726AB659D00693D6C /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 755771B626AB659400693D6C /* Click.wav */; };
 		755771B926AB65B000693D6C /* Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 755771B826AB65B000693D6C /* Sound.mp3 */; };
+		75D7EC7126AB8ABF001FFDC8 /* HoneyloveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */; };
+		75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */; };
+		75D7EC7826AB920E001FFDC8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7726AB920E001FFDC8 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		755771B426AB4E9E00693D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		755771B626AB659400693D6C /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
 		755771B826AB65B000693D6C /* Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound.mp3; sourceTree = "<group>"; };
+		75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveModel.swift; sourceTree = "<group>"; };
+		75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveData.swift; sourceTree = "<group>"; };
+		75D7EC7726AB920E001FFDC8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 		7557718026AB4E6E00693D6C = {
 			isa = PBXGroup;
 			children = (
+				75D7EC7626AB91F1001FFDC8 /* View */,
+				75D7EC7326AB8C05001FFDC8 /* Data */,
+				75D7EC7226AB8B4C001FFDC8 /* Model */,
 				7557718B26AB4E6F00693D6C /* Honeylove */,
 				752231A526AB7BDF002AF587 /* Views */,
 				755771B526AB657200693D6C /* Sounds */,
@@ -111,7 +120,6 @@
 			children = (
 				755771B426AB4E9E00693D6C /* Info.plist */,
 				7557718C26AB4E6F00693D6C /* HoneyloveApp.swift */,
-				7557718E26AB4E6F00693D6C /* ContentView.swift */,
 				7557719026AB4E7300693D6C /* Assets.xcassets */,
 				7557719226AB4E7300693D6C /* Preview Content */,
 			);
@@ -149,6 +157,31 @@
 				755771B826AB65B000693D6C /* Sound.mp3 */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		75D7EC7226AB8B4C001FFDC8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		75D7EC7326AB8C05001FFDC8 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		75D7EC7626AB91F1001FFDC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				75D7EC7726AB920E001FFDC8 /* CardView.swift */,
+				7557718E26AB4E6F00693D6C /* ContentView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,8 +317,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75D7EC7126AB8ABF001FFDC8 /* HoneyloveModel.swift in Sources */,
+				75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */,
 				7557718F26AB4E6F00693D6C /* ContentView.swift in Sources */,
 				7557718D26AB4E6F00693D6C /* HoneyloveApp.swift in Sources */,
+				75D7EC7826AB920E001FFDC8 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
