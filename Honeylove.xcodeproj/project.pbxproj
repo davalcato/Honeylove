@@ -16,6 +16,7 @@
 		755771A826AB4E7400693D6C /* HoneyloveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755771A726AB4E7400693D6C /* HoneyloveUITests.swift */; };
 		755771B726AB659D00693D6C /* Click.wav in Resources */ = {isa = PBXBuildFile; fileRef = 755771B626AB659400693D6C /* Click.wav */; };
 		755771B926AB65B000693D6C /* Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 755771B826AB65B000693D6C /* Sound.mp3 */; };
+		7586F3CA26AC9D7D00251315 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586F3C926AC9D7C00251315 /* HeaderView.swift */; };
 		75D7EC7126AB8ABF001FFDC8 /* HoneyloveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */; };
 		75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */; };
 		75D7EC7826AB920E001FFDC8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7726AB920E001FFDC8 /* CardView.swift */; };
@@ -52,6 +53,7 @@
 		755771B426AB4E9E00693D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		755771B626AB659400693D6C /* Click.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Click.wav; sourceTree = "<group>"; };
 		755771B826AB65B000693D6C /* Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound.mp3; sourceTree = "<group>"; };
+		7586F3C926AC9D7C00251315 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveModel.swift; sourceTree = "<group>"; };
 		75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveData.swift; sourceTree = "<group>"; };
 		75D7EC7726AB920E001FFDC8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 			children = (
 				75D7EC7726AB920E001FFDC8 /* CardView.swift */,
 				7557718E26AB4E6F00693D6C /* ContentView.swift */,
+				7586F3C926AC9D7C00251315 /* HeaderView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -318,6 +321,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D7EC7126AB8ABF001FFDC8 /* HoneyloveModel.swift in Sources */,
+				7586F3CA26AC9D7D00251315 /* HeaderView.swift in Sources */,
 				75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */,
 				7557718F26AB4E6F00693D6C /* ContentView.swift in Sources */,
 				7557718D26AB4E6F00693D6C /* HoneyloveApp.swift in Sources */,
