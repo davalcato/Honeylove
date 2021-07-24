@@ -18,6 +18,9 @@
 		755771B926AB65B000693D6C /* Sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 755771B826AB65B000693D6C /* Sound.mp3 */; };
 		7586F3CA26AC9D7D00251315 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586F3C926AC9D7C00251315 /* HeaderView.swift */; };
 		7586F3CC26ACBDF700251315 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586F3CB26ACBDF600251315 /* FooterView.swift */; };
+		7586F3CF26ACC61200251315 /* HeaderComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586F3CE26ACC61200251315 /* HeaderComponent.swift */; };
+		7586F3D126ACC8C900251315 /* GuideComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586F3D026ACC8C900251315 /* GuideComponent.swift */; };
+		7586F3D326ACCCA800251315 /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7586F3D226ACCCA800251315 /* GuideView.swift */; };
 		75D7EC7126AB8ABF001FFDC8 /* HoneyloveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */; };
 		75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */; };
 		75D7EC7826AB920E001FFDC8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7726AB920E001FFDC8 /* CardView.swift */; };
@@ -56,6 +59,9 @@
 		755771B826AB65B000693D6C /* Sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound.mp3; sourceTree = "<group>"; };
 		7586F3C926AC9D7C00251315 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		7586F3CB26ACBDF600251315 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		7586F3CE26ACC61200251315 /* HeaderComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderComponent.swift; sourceTree = "<group>"; };
+		7586F3D026ACC8C900251315 /* GuideComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideComponent.swift; sourceTree = "<group>"; };
+		7586F3D226ACCCA800251315 /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
 		75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveModel.swift; sourceTree = "<group>"; };
 		75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveData.swift; sourceTree = "<group>"; };
 		75D7EC7726AB920E001FFDC8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -97,6 +103,7 @@
 		7557718026AB4E6E00693D6C = {
 			isa = PBXGroup;
 			children = (
+				7586F3CD26ACC5BD00251315 /* Componemt */,
 				75D7EC7626AB91F1001FFDC8 /* View */,
 				75D7EC7326AB8C05001FFDC8 /* Data */,
 				75D7EC7226AB8B4C001FFDC8 /* Model */,
@@ -163,6 +170,15 @@
 			path = Sounds;
 			sourceTree = "<group>";
 		};
+		7586F3CD26ACC5BD00251315 /* Componemt */ = {
+			isa = PBXGroup;
+			children = (
+				7586F3CE26ACC61200251315 /* HeaderComponent.swift */,
+				7586F3D026ACC8C900251315 /* GuideComponent.swift */,
+			);
+			path = Componemt;
+			sourceTree = "<group>";
+		};
 		75D7EC7226AB8B4C001FFDC8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -186,6 +202,7 @@
 				7557718E26AB4E6F00693D6C /* ContentView.swift */,
 				7586F3C926AC9D7C00251315 /* HeaderView.swift */,
 				7586F3CB26ACBDF600251315 /* FooterView.swift */,
+				7586F3D226ACCCA800251315 /* GuideView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -327,9 +344,12 @@
 				7586F3CC26ACBDF700251315 /* FooterView.swift in Sources */,
 				7586F3CA26AC9D7D00251315 /* HeaderView.swift in Sources */,
 				75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */,
+				7586F3CF26ACC61200251315 /* HeaderComponent.swift in Sources */,
 				7557718F26AB4E6F00693D6C /* ContentView.swift in Sources */,
 				7557718D26AB4E6F00693D6C /* HoneyloveApp.swift in Sources */,
 				75D7EC7826AB920E001FFDC8 /* CardView.swift in Sources */,
+				7586F3D126ACC8C900251315 /* GuideComponent.swift in Sources */,
+				7586F3D326ACCCA800251315 /* GuideView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
