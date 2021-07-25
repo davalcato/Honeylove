@@ -34,7 +34,6 @@ struct ContentView: View {
             Alert(title: Text("SUCCESS"),
                   message: Text("The best destination for finding love!"),
                   dismissButton: .default(Text("Happy Honeylove!")))
-            
         }
     }
 }
