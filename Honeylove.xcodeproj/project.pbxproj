@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		75182D9626ADC6CC000F45C6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75182D9526ADC6CC000F45C6 /* InfoView.swift */; };
+		75182D9826ADC997000F45C6 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75182D9726ADC997000F45C6 /* TitleModifier.swift */; };
 		752231A426AB6D09002AF587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7557719026AB4E7300693D6C /* Assets.xcassets */; };
 		752231A726AB7C0A002AF587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752231A626AB7C0A002AF587 /* LaunchScreen.storyboard */; };
 		7557718D26AB4E6F00693D6C /* HoneyloveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557718C26AB4E6F00693D6C /* HoneyloveApp.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		75182D9526ADC6CC000F45C6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		75182D9726ADC997000F45C6 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
 		752231A626AB7C0A002AF587 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7557718926AB4E6F00693D6C /* Honeylove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeylove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7557718C26AB4E6F00693D6C /* HoneyloveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveApp.swift; sourceTree = "<group>"; };
@@ -92,6 +96,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		75182D9926ADCA46000F45C6 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				75182D9726ADC997000F45C6 /* TitleModifier.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		752231A526AB7BDF002AF587 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,8 +115,9 @@
 		7557718026AB4E6E00693D6C = {
 			isa = PBXGroup;
 			children = (
-				7586F3CD26ACC5BD00251315 /* Componemt */,
+				75182D9926ADCA46000F45C6 /* Modifiers */,
 				75D7EC7626AB91F1001FFDC8 /* View */,
+				7586F3CD26ACC5BD00251315 /* Componemt */,
 				75D7EC7326AB8C05001FFDC8 /* Data */,
 				75D7EC7226AB8B4C001FFDC8 /* Model */,
 				7557718B26AB4E6F00693D6C /* Honeylove */,
@@ -203,6 +216,7 @@
 				7586F3C926AC9D7C00251315 /* HeaderView.swift */,
 				7586F3CB26ACBDF600251315 /* FooterView.swift */,
 				7586F3D226ACCCA800251315 /* GuideView.swift */,
+				75182D9526ADC6CC000F45C6 /* InfoView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -341,7 +355,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				75D7EC7126AB8ABF001FFDC8 /* HoneyloveModel.swift in Sources */,
+				75182D9626ADC6CC000F45C6 /* InfoView.swift in Sources */,
 				7586F3CC26ACBDF700251315 /* FooterView.swift in Sources */,
+				75182D9826ADC997000F45C6 /* TitleModifier.swift in Sources */,
 				7586F3CA26AC9D7D00251315 /* HeaderView.swift in Sources */,
 				75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */,
 				7586F3CF26ACC61200251315 /* HeaderComponent.swift in Sources */,

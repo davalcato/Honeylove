@@ -24,8 +24,7 @@ struct GuideView: View {
             
             Text("Get Started!")
                 .fontWeight(.black)
-                .font(.largeTitle)
-                .foregroundColor(Color.pink)
+                .modifier(TitleModifier())
             
             // Marketing Headline
             Text("Discover and pick the perfect spiritual guide to you direct you to world of love!")
