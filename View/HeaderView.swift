@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct HeaderView: View {
+    // MARK: PROPERTIES
+    @Binding var showGuideView: Bool
+    
+    
+    
     var body: some View {
         HStack {
             // Create left bottom of header
@@ -32,21 +37,34 @@ struct HeaderView: View {
             
             // Create buttom on the right side
             Button(action: {
-                // Action
-                print("Guide")
+                // ACTION: ShowGuideView when tapped
+                
+//                print("Guide")
+                self.showGuideView.toggle()
+                
             }) {
                 Image(systemName: "questionmark.circle")
                     .font(.system(size: 24, weight: .regular))
             }
             .accentColor(Color.primary)
+            // Add new sheet to button
+            .sheet(
+                isPresented: $showGuideView) {
+                GuideView()
+                
+            }
         }
         .padding()
     }
 }
 
 struct HeaderView_Previews: PreviewProvider {
+    // Static variable for preview
+    @State static var showGuide: Bool = false
+    
     static var previews: some View {
-        HeaderView()
+        // Add the Propery
+        HeaderView(showGuideView: $showGuide)
         // Resize the layout in preview
             .previewLayout(.fixed(
                 width: 375,
