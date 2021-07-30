@@ -18,13 +18,21 @@ struct HeaderView: View {
             // Create left bottom of header
             Button(action: {
                 // Action
-                print("Information")
+//                print("Information")
+                
+                // Show view property
+                self.showInfoView.toggle()
                 
             }) {
                 Image(systemName: "info.circle")
                     .font(.system(size: 24, weight: .regular))
             }
             .accentColor(Color.primary)
+            // Create a sheet
+            .sheet(isPresented: $showInfoView) {
+               InfoView()
+            }
+            
             // Between the two elements
             Spacer()
             
