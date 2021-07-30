@@ -10,7 +10,7 @@ import SwiftUI
 struct HeaderView: View {
     // MARK: PROPERTIES
     @Binding var showGuideView: Bool
-    
+    @Binding var showInfoView: Bool
     
     
     var body: some View {
@@ -61,10 +61,14 @@ struct HeaderView: View {
 struct HeaderView_Previews: PreviewProvider {
     // Static variable for preview
     @State static var showGuide: Bool = false
+    // Create preview
+    @State static var showInfo: Bool = false
+    
     
     static var previews: some View {
         // Add the Propery
-        HeaderView(showGuideView: $showGuide)
+        HeaderView(showGuideView: $showGuide,
+                   showInfoView: $showInfo)
         // Resize the layout in preview
             .previewLayout(.fixed(
                 width: 375,
