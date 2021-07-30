@@ -8,6 +8,11 @@
 import SwiftUI
 
 struct InfoView: View {
+    // MARK: PROPERTY
+    @Environment(\.presentationMode) var presentationMode
+    
+    
+    
     var body: some View {
         // Scrollview
         ScrollView(.vertical, showsIndicators: false) {
@@ -37,7 +42,11 @@ struct InfoView: View {
                 // Add button
                 Button(action: {
                     // ACTION
-                    print("Button was tapped!")
+//                    print("Button was tapped!")
+                    
+                    // Trigger button
+                    self.presentationMode.wrappedValue.dismiss()
+                    
                 }) {
                     Text("Continue".uppercased())
                         .modifier(ButtonModifier())

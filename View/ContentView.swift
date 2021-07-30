@@ -13,11 +13,13 @@ struct ContentView: View {
     @State var showAlert: Bool = false
     // Store binding for button
     @State var showGuide: Bool = false
+    // Bindable state property
+    @State var showInfo: Bool = false
     
     var body: some View {
     // Card view text
         VStack {
-            HeaderView(showGuideView: $showGuide)
+            HeaderView(showGuideView: $showGuide, showInfoView: $showInfo)
             
             Spacer()
             
