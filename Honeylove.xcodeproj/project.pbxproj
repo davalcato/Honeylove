@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		75182D9626ADC6CC000F45C6 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75182D9526ADC6CC000F45C6 /* InfoView.swift */; };
 		75182D9826ADC997000F45C6 /* TitleModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75182D9726ADC997000F45C6 /* TitleModifier.swift */; };
+		75182D9B26B45ECD000F45C6 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75182D9A26B45ECD000F45C6 /* ButtonModifier.swift */; };
 		752231A426AB6D09002AF587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7557719026AB4E7300693D6C /* Assets.xcassets */; };
 		752231A726AB7C0A002AF587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 752231A626AB7C0A002AF587 /* LaunchScreen.storyboard */; };
 		7557718D26AB4E6F00693D6C /* HoneyloveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7557718C26AB4E6F00693D6C /* HoneyloveApp.swift */; };
@@ -48,6 +49,7 @@
 /* Begin PBXFileReference section */
 		75182D9526ADC6CC000F45C6 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		75182D9726ADC997000F45C6 /* TitleModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleModifier.swift; sourceTree = "<group>"; };
+		75182D9A26B45ECD000F45C6 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
 		752231A626AB7C0A002AF587 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7557718926AB4E6F00693D6C /* Honeylove.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Honeylove.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7557718C26AB4E6F00693D6C /* HoneyloveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveApp.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				75182D9726ADC997000F45C6 /* TitleModifier.swift */,
+				75182D9A26B45ECD000F45C6 /* ButtonModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -360,6 +363,7 @@
 				75182D9826ADC997000F45C6 /* TitleModifier.swift in Sources */,
 				7586F3CA26AC9D7D00251315 /* HeaderView.swift in Sources */,
 				75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */,
+				75182D9B26B45ECD000F45C6 /* ButtonModifier.swift in Sources */,
 				7586F3CF26ACC61200251315 /* HeaderComponent.swift in Sources */,
 				7557718F26AB4E6F00693D6C /* ContentView.swift in Sources */,
 				7557718D26AB4E6F00693D6C /* HoneyloveApp.swift in Sources */,

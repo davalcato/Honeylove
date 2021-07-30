@@ -64,13 +64,8 @@ struct GuideView: View {
                 
             }) {
                 Text("Continue".uppercased())
-                    .font(.headline)
-                    .padding()
-                    .frame(minWidth: 0, maxWidth: .infinity)
-                    .background(Capsule().fill(Color.pink))
-                    .foregroundColor(Color.white)
-                
-            }
+                    .modifier(ButtonModifier())
+                }
             
             }
         // Basic modifiers

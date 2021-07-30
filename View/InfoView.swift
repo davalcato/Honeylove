@@ -22,23 +22,14 @@ struct InfoView: View {
                     .fontWeight(.black)
                     .modifier(TitleModifier())
                 
-                HStack {
-                    Text("Application").foregroundColor(Color.gray)
-                    Spacer()
-                    Text("honeylove")
-                }
+                AppInfoView()
                 
                 // Text view for the credits
                 Text("Credits")
                     .fontWeight(.black)
                     .modifier(TitleModifier())
                 
-                HStack {
-                    Text("Photos").foregroundColor(Color.gray)
-                    Spacer()
-                    Text("Unsplash")
-                    
-                }
+                CreditsView()
                 
                 // Spacer between credit and dismiss button
                 Spacer(minLength: 10)
@@ -49,6 +40,7 @@ struct InfoView: View {
                     print("Button was tapped!")
                 }) {
                     Text("Continue".uppercased())
+                        .modifier(ButtonModifier())
                     
                 }
                 
@@ -64,5 +56,69 @@ struct InfoView: View {
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
         InfoView()
+    }
+}
+
+struct AppInfoView: View {
+    var body: some View {
+        VStack(alignment: .leading,
+               spacing: 10) {
+            RowAppInfoView(ItemOne: "Application",
+                           ItemTwo: "Honeylove")
+            
+            RowAppInfoView(ItemOne: "Compatibility",
+                           ItemTwo: "iPhone and iPad")
+            
+            RowAppInfoView(ItemOne: "Developer",
+                           ItemTwo: "John / Jane")
+            
+            RowAppInfoView(ItemOne: "Designer",
+                           ItemTwo: "Daval Cato")
+            
+            RowAppInfoView(ItemOne: "Website",
+                           ItemTwo: "Mesoftware.com")
+            
+            RowAppInfoView(ItemOne: "Version",
+                           ItemTwo: "1.0.0")
+        }
+    }
+}
+
+struct RowAppInfoView: View {
+    // MARK: PROPERIES
+    var ItemOne: String
+    var ItemTwo: String
+    
+    var body: some View {
+        VStack {
+            HStack {
+                Text(ItemOne).foregroundColor(Color.gray)
+                Spacer()
+                Text(ItemTwo)
+            }
+            // Add new divider after HStack
+            Divider()
+        }
+    }
+}
+
+struct CreditsView: View {
+    var body: some View {
+        VStack(alignment: .leading,
+               spacing: 10) {
+            HStack {
+                Text("Photos").foregroundColor(Color.gray)
+                Spacer()
+                Text("Unsplash")
+            }
+            
+            Divider()
+            
+            Text("Photographers").foregroundColor(Color.gray)
+            
+            Text("Producer”, “Senior/Junior Producer”, “Supervisor”, “Associate Producer”, “Production Coordinator”, “Project Management/Assistance”, “Game/Development Director”, “Project Leader/Manager”, “Production Manager”)")
+                .multilineTextAlignment(.leading)
+                .font(.footnote)
+        }
     }
 }
