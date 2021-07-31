@@ -20,7 +20,7 @@ struct HeaderView: View {
                 // Action
 //                print("Information")
                 
-                // Show view property
+                // showInfoView property
                 self.showInfoView.toggle()
                 
             }) {
@@ -28,7 +28,8 @@ struct HeaderView: View {
                     .font(.system(size: 24, weight: .regular))
             }
             .accentColor(Color.primary)
-            // Create a sheet
+            
+            // Present the infoview
             .sheet(isPresented: $showInfoView) {
                InfoView()
             }
@@ -69,7 +70,7 @@ struct HeaderView: View {
 struct HeaderView_Previews: PreviewProvider {
     // Static variable for preview
     @State static var showGuide: Bool = false
-    // Create preview
+    // Static property Preview
     @State static var showInfo: Bool = false
     
     

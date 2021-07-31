@@ -13,7 +13,7 @@ struct ContentView: View {
     @State var showAlert: Bool = false
     // Store binding for button
     @State var showGuide: Bool = false
-    // Bindable state property
+    // Storing the value state of Info button 
     @State var showInfo: Bool = false
     
     // MARK: - CARD VIEWS
@@ -32,7 +32,7 @@ struct ContentView: View {
             
             return false
         }
-        // Index of each card view
+        // Find out the index of each card
         return index == 0
     }
     
@@ -49,6 +49,7 @@ struct ContentView: View {
             ZStack {
                 ForEach(cardViews) { cardView in
                     cardView
+                        .zIndex(self.isTopCard(cardView: cardView) ? 1 : 0)
                 }
             }
             .padding(.horizontal)

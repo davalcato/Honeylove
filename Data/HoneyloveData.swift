@@ -78,7 +78,6 @@ var honeyloveData: [Destination] = [
       country: "Italy",
       image: "photo-rome-italy"
     )
-
 ]
 
 

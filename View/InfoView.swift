@@ -8,10 +8,8 @@
 import SwiftUI
 
 struct InfoView: View {
-    // MARK: PROPERTY
+    // MARK: PROPERTIES
     @Environment(\.presentationMode) var presentationMode
-    
-    
     
     var body: some View {
         // Scrollview
