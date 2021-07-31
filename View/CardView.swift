@@ -7,10 +7,12 @@
 
 import SwiftUI
 
-struct CardView: View {
+struct CardView: View, Identifiable {
     // MARK: - PROPERTIES
+    
     let id = UUID()
     var honeylove: Destination
+    
     var body: some View {
         Image(honeylove.image)
             .resizable()
@@ -63,7 +65,8 @@ struct CardView: View {
 
 struct CardView_Previews: PreviewProvider {
     static var previews: some View {
-        CardView(honeylove: honeyloveData[1])
+        // Present the honeylove destination in preview
+        CardView(honeylove: honeyloveData[0])
             .previewLayout(.fixed(width: 275,
                                   height: 600))
         

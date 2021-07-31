@@ -16,19 +16,47 @@ struct ContentView: View {
     // Bindable state property
     @State var showInfo: Bool = false
     
+    // MARK: - CARD VIEWS
+    
+    var cardViews: [CardView] = {
+        var views = [CardView]()
+        for honeylove in honeyloveData {
+            views.append(CardView(honeylove: honeylove))
+            }
+        return views
+    }()
+    
+    // MARK: TOP CARD
+    private func isTopCard(cardView: CardView) -> Bool {
+        guard let index = cardViews.firstIndex(where: { $0.id == cardView.id }) else {
+            
+            return false
+        }
+        // Index of each card view
+        return index == 0
+    }
+    
     var body: some View {
     // Card view text
         VStack {
-            HeaderView(showGuideView: $showGuide, showInfoView: $showInfo)
+            // MARK: HEADER
+            HeaderView(showGuideView: $showGuide,
+                       showInfoView: $showInfo)
             
             Spacer()
-            
-            CardView(honeylove: honeyloveData[2])
-            // FIXME: Add temporary padding to cardview
-                .padding()
-            
+        
+            // MARK: CARDS
+            ZStack {
+                ForEach(cardViews) { cardView in
+                    cardView
+                }
+            }
+            .padding(.horizontal)
+
+
             Spacer()
             
+            // MARK: - FOOTER
             FooterView(showBookingAlert: $showAlert)
             // Spacer between card
         }
