@@ -20,8 +20,8 @@ struct ContentView: View {
     
     var cardViews: [CardView] = {
         var views = [CardView]()
-        for honeylove in honeyloveData {
-            views.append(CardView(honeylove: honeylove))
+        for index in 0..<2 {
+            views.append(CardView(honeylove: honeyloveData[index]))
             }
         return views
     }()
