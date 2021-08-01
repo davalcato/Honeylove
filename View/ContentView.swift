@@ -89,6 +89,16 @@ struct ContentView: View {
                 ForEach(cardViews) { cardView in
                     cardView
                         .zIndex(self.isTopCard(cardView: cardView) ? 1 : 0)
+                    // Overlay modifier
+                        .overlay(
+                            ZStack {
+                            // X -MARK SYMBOL
+                            Image(systemName: "x.circle")
+                                .modifier(SymbolModifier())
+                            
+                            }
+                        )
+                    
                         .offset(x: self.isTopCard(cardView: cardView) ?  self.dragState.translation.width : 0, y: self.isTopCard(cardView: cardView) ?  self.dragState.translation.height : 0)
                     // Scale down card
                         .scaleEffect(self.dragState.isDragging && self.isTopCard(cardView: cardView) ? 0.85 : 1.0)

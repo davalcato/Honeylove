@@ -27,6 +27,7 @@
 		75D7EC7126AB8ABF001FFDC8 /* HoneyloveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */; };
 		75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */; };
 		75D7EC7826AB920E001FFDC8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75D7EC7726AB920E001FFDC8 /* CardView.swift */; };
+		75EE3A2026B620EA00CC18F2 /* SymbolModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EE3A1F26B620EA00CC18F2 /* SymbolModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		75D7EC7026AB8ABF001FFDC8 /* HoneyloveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveModel.swift; sourceTree = "<group>"; };
 		75D7EC7426AB8C38001FFDC8 /* HoneyloveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoneyloveData.swift; sourceTree = "<group>"; };
 		75D7EC7726AB920E001FFDC8 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		75EE3A1F26B620EA00CC18F2 /* SymbolModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				75182D9726ADC997000F45C6 /* TitleModifier.swift */,
 				75182D9A26B45ECD000F45C6 /* ButtonModifier.swift */,
+				75EE3A1F26B620EA00CC18F2 /* SymbolModifier.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				75182D9626ADC6CC000F45C6 /* InfoView.swift in Sources */,
 				7586F3CC26ACBDF700251315 /* FooterView.swift in Sources */,
 				75182D9826ADC997000F45C6 /* TitleModifier.swift in Sources */,
+				75EE3A2026B620EA00CC18F2 /* SymbolModifier.swift in Sources */,
 				7586F3CA26AC9D7D00251315 /* HeaderView.swift in Sources */,
 				75D7EC7526AB8C38001FFDC8 /* HoneyloveData.swift in Sources */,
 				75182D9B26B45ECD000F45C6 /* ButtonModifier.swift in Sources */,
