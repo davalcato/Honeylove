@@ -16,9 +16,17 @@ struct FooterView: View {
     
     var body: some View {
         HStack {
+            
+            Button(action: {
+                      print("button pressed")
+
+                    }) {
             // Left image for the folder
             Image(systemName: "xmark.circle")
                 .font(.system(size: 42, weight: .light))
+                .accentColor(Color.white)
+                }
+
             Spacer()
             
             // Button
@@ -28,9 +36,7 @@ struct FooterView: View {
                 self.haptics.notificationOccurred(.success)
                 self.showBookingAlert.toggle()
                 
-                
         // Change property when button is tapped
-                
                 
             }) {
                 Text("Book Appointment".uppercased())
@@ -48,10 +54,15 @@ struct FooterView: View {
             
             Spacer()
             
+            Button(action: {
+                      print("button pressed")
+
+                    }) {
         // Create new image on the right
             Image(systemName: "heart.circle")
                 .font(.system(size: 42, weight: .light))
-            
+                .accentColor(Color.white)
+                }
         }
         .padding()
     }
