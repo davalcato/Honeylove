@@ -17,8 +17,8 @@ struct HeaderView: View {
         HStack {
             // Create left bottom of header
             Button(action: {
-                // Action
-//                print("Information")
+                // ACTION
+                playSound(sound: "Sound", type: "mp3")
                 
                 // showInfoView property
                 self.showInfoView.toggle()
@@ -46,7 +46,8 @@ struct HeaderView: View {
             
             // Create buttom on the right side
             Button(action: {
-                // ACTION: ShowGuideView when tapped
+                // ACTION
+                playSound(sound: "Sound", type: "mp3")
                 
 //                print("Guide")
                 self.showGuideView.toggle()

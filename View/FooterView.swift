@@ -23,7 +23,7 @@ struct FooterView: View {
             // Button
             Button(action: {
                 // ACTION
-//                print("Success!")
+                playSound(sound: "Sound", type: "mp3")
                 self.showBookingAlert.toggle()
                 
                 

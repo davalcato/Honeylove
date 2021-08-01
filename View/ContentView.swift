@@ -21,6 +21,8 @@ struct ContentView: View {
     private var dragAreaThreshold: CGFloat = 65.0
     // Last card tracked
     @State private var lastCardIndex: Int = 1
+    // Removal of cards
+    @State private var cardRemovalTransition = AnyTransition.trailingBottom
     
     // MARK: - CARD VIEWS
     
@@ -91,7 +93,6 @@ struct ContentView: View {
         }
     }
     
-    
     var body: some View {
     // Card view text
         VStack {
@@ -144,17 +145,34 @@ struct ContentView: View {
                                 break
                             }
                         })
+                        // Update gesture modifier
+                                    .onChanged({ (value) in
+                            guard case .second(true, let drag?) = value else {
+                                return
+                            }
+                            
+                            if drag.translation.width < -self.dragAreaThreshold {
+                                self.cardRemovalTransition = .leadingBottom
+                            }
+                            
+                            if drag.translation.width > self.dragAreaThreshold {
+                                self.cardRemovalTransition = .trailingBottom
+                            }
+                        })
+                                 
                                     .onEnded({ (value) in
                             guard case .second(true, let drag?) = value else {
                                 return
                             }
                             
                             if drag.translation.width < -self.dragAreaThreshold || drag.translation.width > self.dragAreaThreshold {
-                                self.moveCards()
+                                playSound(sound: "Click", type: "mp3")
                                 
+                                
+                                self.moveCards()
                             }
                         })
-                    )
+                        ).transition(self.cardRemovalTransition)
                 }
             }
             .padding(.horizontal)
