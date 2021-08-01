@@ -17,6 +17,8 @@ struct ContentView: View {
     @State var showInfo: Bool = false
     // Gesture
     @GestureState private var dragState = DragState.inactive
+    // DRAG THRESHOLD
+    private var dragAreaThreshold: CGFloat = 65.0
     
     
     // MARK: - CARD VIEWS
@@ -95,7 +97,12 @@ struct ContentView: View {
                             // X -MARK SYMBOL
                             Image(systemName: "x.circle")
                                 .modifier(SymbolModifier())
+                                .opacity(self.dragState.translation.width < -self.dragAreaThreshold && self.isTopCard(cardView: cardView) ? 1.0 : 0.0)
                             
+                            // HEART SYMBOL
+                            Image(systemName: "heart.circle")
+                                .modifier(SymbolModifier())
+                                .opacity(self.dragState.translation.width > self.dragAreaThreshold && self.isTopCard(cardView: cardView) ? 1.0 : 0.0)
                             }
                         )
                     
