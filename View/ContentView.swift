@@ -166,9 +166,7 @@ struct ContentView: View {
                             }
                             
                             if drag.translation.width < -self.dragAreaThreshold || drag.translation.width > self.dragAreaThreshold {
-                                playSound(sound: "Click", type: "mp3")
-                                
-                                
+                                playSound(sound: "Click", type: "wav")
                                 self.moveCards()
                             }
                         })

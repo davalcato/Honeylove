@@ -11,6 +11,8 @@ struct HeaderView: View {
     // MARK: PROPERTIES
     @Binding var showGuideView: Bool
     @Binding var showInfoView: Bool
+    // Haptic feedback
+    let haptics = UINotificationFeedbackGenerator()
     
     
     var body: some View {
@@ -19,7 +21,7 @@ struct HeaderView: View {
             Button(action: {
                 // ACTION
                 playSound(sound: "Sound", type: "mp3")
-                
+                self.haptics.notificationOccurred(.success)
                 // showInfoView property
                 self.showInfoView.toggle()
                 
@@ -48,6 +50,7 @@ struct HeaderView: View {
             Button(action: {
                 // ACTION
                 playSound(sound: "Sound", type: "mp3")
+                self.haptics.notificationOccurred(.success)
                 
 //                print("Guide")
                 self.showGuideView.toggle()

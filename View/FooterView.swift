@@ -10,6 +10,8 @@ import SwiftUI
 struct FooterView: View {
     // MARK: Create new binder
     @Binding var showBookingAlert: Bool
+    // Haptic feedback
+    let haptics = UINotificationFeedbackGenerator()
     
     
     var body: some View {
@@ -17,13 +19,13 @@ struct FooterView: View {
             // Left image for the folder
             Image(systemName: "xmark.circle")
                 .font(.system(size: 42, weight: .light))
-            
             Spacer()
             
             // Button
             Button(action: {
                 // ACTION
                 playSound(sound: "Sound", type: "mp3")
+                self.haptics.notificationOccurred(.success)
                 self.showBookingAlert.toggle()
                 
                 
